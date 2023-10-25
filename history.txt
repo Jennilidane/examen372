@@ -1,0 +1,61 @@
+    1  history
+    2  cd ..
+    3  mkdir examen372
+    4  cd examen372
+    5  touch create.sh
+    6  echo "#! /bin/bash" > create.sh
+    7  git init
+    8  git status
+    9  git add create.sh
+   10  git commit -m "Initial commit, script added"
+   11  code create.sh
+   12  ./create.sh
+   13  cmd //c tree //F ./
+   14  ./create.sh
+   15  cmd //c tree //F ./
+   16  ./create.sh
+   17  cmd //c tree //F ./
+   18  git status
+   19  git add create.sh
+   20  git commit -m "Second commit, structure created"
+   21  git status
+   22  ./create.sh
+   23  cmd //c tree //F ./
+   24  ./create.sh
+   25  cmd //c tree //F ./
+   26  ./create.sh
+   27  cmd //c tree //F ./
+   28  mv examen372.md ./examen372
+   29  cd ..
+   30  mv examen372.md ./examen372
+   31  cd Examen1
+   32  ls
+   33  mv examen372.md ./examen372
+   34  ls
+   35  mv ../ examen372
+   36  mv examen372 ../
+   37  ls
+   38  mv ./examen372 ../
+   39  mv ./examen372 ~/
+   40  ls~
+   41  ls ~
+   42  mv examen372.md ./examen372
+   43  mv examen372.md /c/Users/Lizeth Damaso/examen372
+   44  mv examen372.md /c/Users/Lizeth Damaso/examen372/
+   45  mv examen372.md 
+   46  mv examen372.md 
+   47  mv examen372.md /C/users/Lizeth\ Damaso/examen372
+   48  mv examen372.md /C/users/Lizeth\ Damaso/examen372/
+   49  mv examen372.md /C/users/
+   50  mv examen372.md /c/users/
+   51  mv examen372.md /C/users/Lizeth\ Damaso/examen372/
+   52  mv examen372.md README.md
+   53  cd ..
+   54  cd examen372
+   55  mv examen372.md README.md
+   56  git status
+   57  git add create.sh
+   58  git commit -m "Third commit, add README.md and final script updated"
+   59  git add README.md
+   60  git commit -m "Third commit, add README.md and final script updated"
+   61  history > history.txt
